@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<full-backup-content>
+    <!-- Exclude Preferences DataStore untuk onboarding & nama user -->
+    <!-- Nama DataStore Anda: user_prefs (lihat UserPrefsRepository.kt) -->
+    <!-- Lokasi file: files/datastore/user_prefs.preferences_pb -->
+
+    <exclude domain="file" path="datastore/user_prefs.preferences_pb"/>
+
+    <!-- (Opsional) jika nanti punya DB Room dan tidak ingin dipulihkan:
+    <exclude domain="database" path="minda.db"/>
+    -->
+
+</full-backup-content>
